@@ -1,0 +1,62 @@
+body{
+	background-color: #ccc;
+	
+	font-family: sans-serif;
+}
+.container{
+	background-color: #fff;
+	max-height:auto;
+	max-width: 50%;
+	margin: 10px;
+}
+.my-panel{
+	width: 33.3%;
+	float:left;
+}
+.my-cont{
+	width: 33.3%;
+	float:left;
+}
+.one{
+	background-color: blue;
+	min-height: 20%;
+}
+.two{
+	background-color: green;
+	min-height: 20%;
+}
+
+
+.three{
+	background-color: red;
+	min-height: 20%;
+}
+.four{
+	background-color: yellow;
+	min-height: 20%;
+	overflow: auto;
+}
+.five{
+	background-color: pink;
+	min-height: 20%;
+}
+.six{
+	background-color: purple;
+	min-height: 20%;
+}
+.seven{
+	background-color: grey;
+	min-height: 20%;
+	
+}
+ P{
+	color:#000;
+	font-size: 15px;  
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    width: 20PX;
+    padding: 10PX;
+  }
+}
